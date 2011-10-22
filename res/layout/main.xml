@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:" 
+    />
+    
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+    
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido:" 
+    />
+    
+    <EditText
+        android:id="@+id/et_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+    
+    <Button
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Guardar en DTO"
+    	android:onClick="saveToDTO"           
+    />
+    
+    <Button
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Abrir Ventana"
+    	android:onClick="openActivity"           
+    />
+
+</LinearLayout>
